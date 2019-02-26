@@ -1,0 +1,43 @@
+LonginPage:
+ dec: 登陆
+ locators:
+    -
+     name: 引导页登陆0
+     type: id
+     value: bt_login
+    -
+     name: 用户手机号1
+     type: id
+     value: al_phone_Cet
+    -
+     name: 用户密码2
+     type: id
+     value: al_key_Cet
+    -
+     name: 登陆页登陆3
+     type: id
+     value: al_user_login_tv
+    -
+     name: 微信登陆4
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_wechat_login
+    -
+     name: 确认登录5
+     type: xpath
+     value: //*[@text='登录']
+    -
+     name: qq登录6
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvQQLogin
+    -
+     name: 登录7
+     type: xpath
+     value: //*[@text='登录']
+    -
+     name: 登录7
+     type: xpath
+     value: gz.lifesense.weidong.qa:id/al_phone_Cet
+    -
+     name: 登录7
+     type: xpath
+     value: //*[@text='登录']

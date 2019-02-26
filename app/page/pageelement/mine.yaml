@@ -1,0 +1,39 @@
+MinePage:
+ dec: 我的
+ locators:
+    -
+     name: 设置0
+     type: xpath
+     value: //*[@text="设置"]
+    -
+     name: 退出当前登陆1
+     type: xpath
+     value: //*[@text="退出当前登录"]
+    -
+     name: 确定2
+     type: id
+     value: dhf_confirm_tv
+    -
+     name: 我的主页3
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_mine
+    -
+     name: 用户信息4
+     type: id
+     value: gz.lifesense.weidong.qa:id/fm_userInfo
+    -
+     name: 用户名称5
+     type: id
+     value: gz.lifesense.weidong.qa:id/api_name_tv
+    -
+     name: 用户名输出框6
+     type: id
+     value: gz.lifesense.weidong.qa:id/srf_name_cet
+    -
+     name: 用户名更改确认7
+     type: id
+     value: gz.lifesense.weidong.qa:id/srf_confirm_tv
+    -
+     name: 用户乐心id8
+     type: id
+     value: fm_id_tv

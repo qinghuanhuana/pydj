@@ -1,0 +1,67 @@
+1.driver.contexts                                                           返回当前会话中的上下文，识别H5页面
+2.driver.current_context                                                   返回当前会话的当前上下文
+3.context
+4.driver.find_element_by_ios_uiautomation('.elements()[1].cells()[2]')      通过iOS uiautomation查找元素
+5.driver.find_element_by_accessibility_id('id')
+6.driver.scroll(el1,el2)                                                    从元素el1滚动至元素el2
+7.driver.drag_and_drop(el1,el2)                                             将元素el1拖到目标元素el2
+8.driver.tap([(x,y),(x1,y1),(x2,y2)],500)                                   模拟手指点击（最多五个）,可设置按住时间（毫秒）
+9.driver.swipe(x1,y1,x2,y2,500)                                             从A(x1,y1)点到B(x2,y2)点，时间毫秒
+10.driver.flick(x1,y1,x2,y2)                                                按住A点后快速滑动到B点
+11.driver.pinch(element)                                                    在元素上模拟双指捏（缩小操作）
+12.driver.zoom(element)                                                     在元素执行放大操作
+13.driver.reset()                                                           重置应用（类似删除应用数据）
+14.driver.hide_keyboard()                                                   隐藏键盘，iOS使用key_name隐藏，Android不用参数
+15.driver.keyevent('1')                                                     发送按键码（仅Android）
+16.driver.press_keycode('4')                                                发送按键码（仅Android）
+17.driver.long_press_keycode('4')                                           发送一个长按按键码
+18.driver.current_activity()                                                获取当前activity
+19.driver.wait_activity('activity',timeout,interval)                        等待指定activity出现直至超时,interval扫描间隔时间，返回值True或False
+20.driver.background_app(5)                                                 后台运行app5s
+21.driver.is_app_installed('com.packname')                                  app是否安装
+22.driver.install_app('')
+23.driver.remove_app('')
+24.driver.launch_app()
+25.driver.close_app()
+26.driver.start_activity('app_package','app_activity')
+27.driver.lock(2)                                                          锁屏2s，仅iOS
+28.driver.shake()                                                          摇一摇手机操作
+29.driver.open_notifications()                                             打开系统通知栏（API18以上Android）
+30.driver.network_connection                                               网络类型数值
+31.driver.set_network_connection(ConnectionType.WIFI_ONLY)                 设置网络类型  需要导入模块from appium.webdriver.connectiontype import ConnectionType
+ConnectionType类型：NO_CONNECTION=0,AIRPLANE_MODE=1,WIFI_ONLY=2,DATA_ONLY=4,ALL_NETWORK_ON=6
+32.driver.available_ime_engines                                            返回Android可用输入法
+33.driver.is_ime_active()                                                  返回设备是否有输入法服务活动，True/False
+34.driver.activate_ime_engine('')                                          激活Android指定输入法
+35.driver.deactivate_ime_engine()                                          关闭当前输入法
+36.driver.active_ime_engine                                                返回当前输入法包名
+37.driver.toggle_location_services()                                       打开定位设置
+38.drver.set_location(latitude,longitude,altitude)                         设置设备纬度，经度，海拔高度
+39.element.tag_name()                                                      返回元素tagName属性
+40.element.text()                                                          返回元素文本
+41.element.click()
+42.element.clear()
+43.element.is_selected()
+44.element.isenabled()
+45.driver.find_element_by_id('id')
+46.driver.find_elements_by_id('id'[0])
+47.driver.find_element_by_name('name')
+50.driver.find_elements_by_name('')
+51.driver.find_element_by_link_text('')
+52.driver.find_element_by_partial_link_text('')                            元素部分可见链接文本定位
+53.driver.find_element_by_tag_name('')
+54.driver.find_element_by_xpath('')
+55.driver.find_element_by_class_name('')
+56.driver.find_element_by_css_selector('')
+57.element.send_keys('')
+58.assertEqual(first,sencond,msg=None)                                     参数相等
+59.assertNotEqual(first,second,msg=None)                                   参数不相等
+60.assertIn(member,container)                                              包含
+61.assertNotIn（member,container)
+62.assertTrue(expr)                                                       expr是否True
+63.assertFalse(expr)
+64.assertIsNone(obj)                                                      obj是否为None
+65.assertIsNotNone
+
+
+

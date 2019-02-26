@@ -1,0 +1,6 @@
+projectKey=sonarScannerTest
+serverUrl=http://localhost:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://localhost:9000/dashboard?id=sonarScannerTest
+ceTaskId=AWgyZ4R-TxtoJU-CLSdm
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWgyZ4R-TxtoJU-CLSdm

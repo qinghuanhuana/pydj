@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>接口测试报告</title>
+		<style type="text/css">
+            td {width:40px;height:50px;word-break:break-all;word-wrap:break-word;}
+            td.url {width:160px;word-break:break-all;word-wrap:break-word;}
+            td.name {width:100px;word-break:break-all;word-wrap:break-word;}
+            td.post {width: 50px;text-align:center}
+            tr.jz {width:40px;height:20px;text-align:center;}
+
+		</style>
+	</head>
+	<body>
+	
+		<p><strong>开始时间:</strong> 2018-07-05 18:38:10.072198</p>
+		<p><strong>结束时间:</strong> 2018-07-05 18:38:13.179258</p>
+		<p><strong>耗时:</strong> 0:00:03.107060</p>
+		<p><strong>结果:</strong>
+			<span >Pass: <strong >9</strong>
+			Fail: <strong >1</strong>
+			        </span></p>                  
+			    <p ><strong>测试详情如下</strong></p>  </div> 
+
+
+        <p>&nbsp;</p>
+        <table border='2'cellspacing='1' cellpadding='1' width='1200'align="left" >
+		<tr class="jz">
+            <td><strong>用例ID</strong></td>
+            <td><strong>用例名字</strong></td>
+            <td><strong>url</strong></td>
+            <td><strong>请求方式</strong></td>
+            <td><strong>请求内容</strong></td>
+            <td><strong>预期</strong></td>
+            <td><strong>实际返回</strong></td>  
+            <td><strong>结果</strong></td>
+        </tr>
+     
+        <tr>
+            <td class="post">1</td>
+            <td class="name">已注册号码</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/isMobileAvaible?appType=6&clientId=8590f7998d4a435ea076af1aa653fc47&language=zh&screenWidth=1080&screenHeight=2034&requestId=bd890728210c4dfe9d7921f747e74cb7&systemType=2&version=3.6</td>
+            <td class="post">POST</td>
+            <td class="url">{"mobile":"13662673020"}</td>
+            <td class="post">461</td>
+            <td class="url">{'code': 461, 'msg': '该手机号已被注册'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">2</td>
+            <td class="name">未注册号码</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/isMobileAvaible?appType=6&clientId=8590f7998d4a435ea076af1aa653fc47&language=zh&screenWidth=1080&screenHeight=2034&requestId=bd890728210c4dfe9d7921f747e74cb7&systemType=2&version=3.6
+</td>
+            <td class="post">POST</td>
+            <td class="url">{"mobile":"13662676267"}</td>
+            <td class="post">200</td>
+            <td class="url">{'code': 200, 'msg': '成功'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">3</td>
+            <td class="name">图片验证码错误</td>
+
+            <td class="url">https://sports-qa.lifesense.com/sms_service/verify/send_code_v3?requestId=1000&sessionId=nosession</td>
+            <td class="post">POST</td>
+            <td class="url">{"code":"0zys","mobile":"13662673020"}</td>
+            <td class="post">416</td>
+            <td class="url">{'code': 416, 'msg': '图片验证码已失效，请重新输入图片验证码'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">4</td>
+            <td class="name">正确手机验证码</td>
+
+            <td class="url">https://sports-qa.lifesense.com/sms_service/verify/check_code?requestId=1000&sessionId=nosession</td>
+            <td class="post">POST</td>
+            <td class="url">{"code":"000000","mobile":"13662673020"}</td>
+            <td class="post">200</td>
+            <td class="url">{'code': 200, 'msg': '成功'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">5</td>
+            <td class="name">错误手机验证码</td>
+
+            <td class="url">https://sports-qa.lifesense.com/sms_service/verify/check_code?requestId=1000&sessionId=nosession</td>
+            <td class="post">POST</td>
+            <td class="url">{"code":"111111","mobile":"13662673020"}</td>
+            <td class="post">412</td>
+            <td class="url">{'code': 412, 'msg': '验证码错误'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">6</td>
+            <td class="name">重设密码</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/resetPasswordByMobile?appType=6&clientId=69e44048dea344239822bc79bd802a87&language=zh&screenWidth=1080&screenHeight=2208&requestId=a4c0f5c86fed4017b07e31787a8d00f3&systemType=2&version=3.6</td>
+            <td class="post">POST</td>
+            <td class="url">{"authCode":"000000","mobile":"13662673020","newPassword":"e10adc3949ba59abbe56e057f20f883e"}</td>
+            <td class="post">200</td>
+            <td class="url">{'code': 200, 'msg': '成功'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">7</td>
+            <td class="name">已注册手机号注册</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/registerByMobile?appType=6&clientId=e3c6544b45ff4029b689166b2968ad5e&language=zh&screenWidth=1080&screenHeight=2208&requestId=aa1713ab338940c3a7f239ab24294683&systemType=2&version=3.6</td>
+            <td class="post">POST</td>
+            <td class="url">{"authCode":"000000","clientId":"beabb2ba03974405864e8eeb0458df90","mobile":"13662673020","password":"e10adc3949ba59abbe56e057f20f883e"}</td>
+            <td class="post">461</td>
+            <td class="url">{'code': 461, 'msg': '该手机号已被注册'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">8</td>
+            <td class="name">错误手机验证码注册</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/registerByMobile?appType=6&clientId=e3c6544b45ff4029b689166b2968ad5e&language=zh&screenWidth=1080&screenHeight=2208&requestId=aa1713ab338940c3a7f239ab24294683&systemType=2&version=3.6</td>
+            <td class="post">POST</td>
+            <td class="url">{"authCode":"1111111","clientId":"beabb2ba03974405864e8eeb0458df90","mobile":"13630209999","password":"e10adc3949ba59abbe56e057f20f883e"}</td>
+            <td class="post">412</td>
+            <td class="url">{'code': 412, 'msg': '验证码错误'}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">9</td>
+            <td class="name">未注册手机号注册</td>
+
+            <td class="url">https://sports-qa.lifesense.com/user_service/registerByMobile?appType=6&clientId=e3c6544b45ff4029b689166b2968ad5e&language=zh&screenWidth=1080&screenHeight=2208&requestId=aa1713ab338940c3a7f239ab24294683&systemType=2&version=3.6</td>
+            <td class="post">POST</td>
+            <td class="url">{"authCode":"000000","clientId":"beabb2ba03974405864e8eeb0458df90","mobile":"13630201215","password":"e10adc3949ba59abbe56e057f20f883e"}</td>
+            <td class="post">200</td>
+            <td class="url">{'code': 461, 'msg': '该手机号已被注册'}</td>
+             <td bgcolor="fail">fail</td>
+        </tr>
+        
+    
+        <tr>
+            <td class="post">10</td>
+            <td class="name">已注册手机号登陆</td>
+
+            <td class="url">https://sports-qa.lifesense.com/sessions_service/login?country=%E4%B8%AD%E5%9B%BD&screenWidth=1080&city=%E6%B7%B1%E5%9C%B3&cityCode=440300&latitude=22.537566&os_country=CN&channel=officialqa&language=en&roleType=0&openudid=&platform=android&province=%E5%B9%BF%E4%B8%9C%E7%9C%81&appType=6&requestId=bc456a653f38470a950e360c495365aa&countryCode=&systemType=2&longitude=113.952795&devicemodel=vivo+X21i+A&area=CN&screenwidth=1080&os_langs=zh&provinceCode=440000&screenHeight=2154&promotion_channel=officialqa&version=3.7&areaCode=440305&network_type=wifi&osversion=8.1.0&screenheight=2154</td>
+            <td class="post">POST</td>
+            <td class="url">{"password":"e10adc3949ba59abbe56e057f20f883e","clientId":"8a083a766fff4e63a7e2596955e9bc23","appType":6,"loginName":"19000000000","roleType":0}</td>
+            <td class="post">200</td>
+            <td class="url">{'code': 200, 'msg': '成功', 'data': {'userId': '4408862', 'accessToken': '5b881acb6eb942dbbb092e88ecf168d5', 'expireAt': 1533376853663, 'userType': 99}}</td>
+             <td bgcolor="green">pass</td>
+        </tr>
+        
+    
+	</table>
+	
+    </body>
+    </html>

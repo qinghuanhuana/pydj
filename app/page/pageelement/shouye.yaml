@@ -1,0 +1,92 @@
+ShouyePage:
+ dec: 首页
+ locators:
+    -
+     name: 首页0
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_main
+    -
+     name: 运动1
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_sports
+    -
+     name: 发现2
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_activities
+    -
+     name: 我的3
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_mine
+    -
+     name: 首页挑战4
+     type: id
+     value: gz.lifesense.weidong.qa:id/challenge_icon
+    -
+     name: 首页分享5
+     type: id
+     value: gz.lifesense.weidong.qa:id/ivHomeShare
+    -
+     name: 首页'+'号6
+     type: id
+     value: gz.lifesense.weidong.qa:id/iv_home_add
+    -
+     name: 首页步数目标7
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvStepTarget
+    -
+     name: 首页有氧运动时长8
+     type: xpath
+     value: //*[@resource-id='gz.lifesense.weidong.qa:id/main_common_type' and @text='有氧运动时长']
+    -
+     name: 有氧时长标题9
+     type: xpath
+     value: //*[@resource-id='gz.lifesense.weidong.qa:id/tv_title']
+    -
+     name: 有氧时长统计10
+     type: xpath
+     value: //*[@resource-id='gz.lifesense.weidong.qa:id/iv_statistics']
+    -
+     name: 更多11
+     type: xpath
+     value: //android.widget.ImageView[@resource-id='gz.lifesense.weidong.qa:id/iv_right']
+    -
+     name: 设置周目标12
+     type: xpath
+     value: //*[@text='设置周目标']
+    -
+     name: 选择目标13
+     type: xpath
+     value: //*[@resource-id='gz.lifesense.weidong.qa:id/ll_setting']/android.widget.LinearLayout[1]
+    -
+     name: 周目标确定14
+     type: xpath
+     value: //android.widget.TextView[@resource-id='gz.lifesense.weidong.qa:id/sw_ok_tv']
+    -
+     name: 保存周目标15
+     type: xpath
+     value: //android.widget.TextView[@resource-id='gz.lifesense.weidong.qa:id/tv_right']
+    -
+     name: 所需目标16
+     type: xpath
+     value: //android.widget.TextView[@resource-id='gz.lifesense.weidong.qa:id/tv_need_time']
+    -
+     name: 目标距离17
+     type: xpath
+     value: //android.widget.TextView[@resource-id='gz.lifesense.weidong.qa:id/tv_target']
+    -
+     name: 首页有氧能力提升计划18
+     type: xpath
+     value: //*[@resource-id='gz.lifesense.weidong.qa:id/main_common_type' and @text='有氧能力提升计划']
+    -
+     name: 有氧能力提升计划跳过19
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_pass
+    -
+     name: 有氧能力提升计划标题20
+     type: xpath
+     value: //android.widget.TextView[@resource-id='gz.lifesense.weidong.qa:id/tv_title']
+    -
+     name:  有氧能力提升计划更多21
+     type: xpath
+     value: //android.widget.ImageView[@resource-id='gz.lifesense.weidong.qa:id/iv_right']
+

@@ -1,0 +1,83 @@
+ZhucePage:
+ dec: 注册
+ locators:
+    -
+     name: 注册按钮0
+     type: id
+     value: gz.lifesense.weidong.qa:id/bt_regist
+    -
+     name: 手机号输入1
+     type: id
+     value: gz.lifesense.weidong.qa:id/al_phone_Cet
+    -
+     name: 下一步2
+     type: id
+     value: gz.lifesense.weidong.qa:id/ar_registerBtn
+    -
+     name: 微信登陆3
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_wechat_login
+    -
+     name: 图像验证码输入4
+     type: id
+     value: gz.lifesense.weidong.qa:id/GraphValidateCode_et
+    -
+     name: 图片验证码刷新5
+     type: id
+     value: gz.lifesense.weidong.qa:id/GraphValidateCode_btn
+    -
+     name: 短信验证码输入6
+     type: id
+     value: gz.lifesense.weidong.qa:id/afk_VerifyCode_et
+    -
+     name: 获取短信验证码7
+     type: id
+     value: gz.lifesense.weidong.qa:id/afk_getCode_btn
+    -
+     name: 密码输入8
+     type: id
+     value: gz.lifesense.weidong.qa:id/al_key_Cet
+    -
+     name: 点击注册9
+     type: id
+     value: gz.lifesense.weidong.qa:id/ar_registerBtn
+    -
+     name: qq登陆10
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvQQLogin
+    -
+     name: 选择男11
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvMale
+    -
+     name: 个人资料下一步12
+     type: id
+     value: gz.lifesense.weidong.qa:id/next_step
+    -
+     name: 确认无误13
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvConfirm
+    -
+     name: 重新修改14
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvReset
+    -
+     name: 用户昵称输入15
+     type: id
+     value: gz.lifesense.weidong.qa:id/arn_name_et
+    -
+     name: 个人资料下一步16
+     type: id
+     value: gz.lifesense.weidong.qa:id/arn_nextStep_btn
+    -
+     name: 目标设置完成17
+     type: id
+     value: gz.lifesense.weidong.qa:id/tv_finish
+    -
+     name: 关闭18
+     type: id
+     value: gz.lifesense.weidong.qa:id/dhbd_close_iv
+    -
+     name: qq登陆10
+     type: id
+     value: gz.lifesense.weidong.qa:id/tvQQLogin
