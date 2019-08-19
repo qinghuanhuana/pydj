@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     {% load bootstrap3 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
-    <title>Guest Page</title>
+    <title>{{ event.name }}发布会</title>
 </head>
 <body>
- <!-- 导航栏 -->
- <nav class="'navbar navbar-inverse navbar-fixed-top">
+<!-- 导航栏 -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">{{ event.name }}</a>
@@ -18,25 +19,26 @@
                 <li><a href="/event_manage/">发布会</a></li>
                 <li><a href="/guest_manage/">嘉宾</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">{{ user }}</a></li>
-                <li><a href="/logout/">退出</a></li>
-            </ul>
         </div>
     </div>
- </nav>
+</nav>
 
 <!-- 签到 -->
-<div class="page-header" style="padding-top: 80px;">
-    <div id="navbar" class="navbar-collaps collapse">
-        <form class="navbar-form" method="post" action="/sign_index_action/{{ event.id }}/">
+<div class="page-header" style="padding-top: 50px;">
+    <div id="navbar1" class="navbar-collapse collapse">
+        <form class="navbar_form" method="post" action="/sign_index_action/{{ event.id }}/">
             <div class="form-group">
-                <input name="phone" type="text" placehokder="输入手机号" class="form-control">
+                <input name="phone" style="width: auto" type="text" placeholder="输入手机号" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">签到</button>
+            <font color="red">
+                <br>{{ hint }}
+                <br>{{ guest.realname }}
+                <br>{{ guest.phone }}
+            </font>
+            {% csrf_token %}
         </form>
     </div>
 </div>
-
 </body>
 </html>

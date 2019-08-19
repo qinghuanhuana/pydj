@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Page</title>
+    <script type = "text/javascript"></script>
+    <style type="text/css">
+        h1{color: #cc0000;font-family: "Garamond", "Georgia", "serif"}
+        input{background-color: oldlace}
+    </style>
+</head>
+<body>
+<h1>Hello Django</h1>
+<form method="post" action="/login_action/">
+    <p>用户名：<input name="username" type="text" placeholder="username"></p>
+    <p>密码：&nbsp <input style="margin-left: auto" name="password" type="text" placeholder="password"></p>
+    <p>验证码：<input type="text" name="checkcode"><img onclick="ChangeCode();" id="imgCode" src="/get_valid_img.png" title="点击更新"></p>
+    <div style="color: red">{{ error }}</div></br>
+    <button id="btn" type="submit">登陆</button>
+    <!--{% csrf_token %}-->
+</form>
+<script type="text/javascript">
+    function ChangeCode() {
+        var code = document.getElementById('imgCode');
+        code.src += '?';
+    }
+function CurentTime()
+    {
+        var now = new Date();
+
+        var year = now.getFullYear();       //年
+        var month = now.getMonth() + 1;     //月
+        var day = now.getDate();            //日
+
+        var hh = now.getHours();            //时
+        var mm = now.getMinutes();          //分
+        var ss = now.getSeconds();
+        var clock = year + "-";
+
+        if(month < 10)
+            clock += "0";
+
+        clock += month + "-";
+
+        if(day < 10)
+            clock += "0";
+
+        clock += day + " ";
+
+        if(hh < 10)
+            clock += "0";
+
+		clock += hh + ":";
+
+
+		if (mm < 10)
+			clock += '0';
+        clock += mm + ":";
+
+		if(ss < 10)
+            clock += "0";
+
+        clock += ss;
+
+
+        return(clock);
+    }
+var strtime = CurentTime()
+</script>
+
+</body>
+</html>
