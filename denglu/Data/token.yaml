@@ -1,14 +1,14 @@
-Cookie: session=%7B%22accessToken%22%3A%223af8683a283047b1a888ca2b8379070a%22%2C%22appType%22%3A6%2C%22expireAt%22%3A1533353406862%2C%22loginId%22%3A%224408862%22%2C%22userType%22%3A99%2C%22gray%22%3Afalse%7D;
-  Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, accessToken2=3af8683a283047b1a888ca2b8379070a;
-  Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, appType2=6; Expires=Sat, 04-Aug-2018
-  05:05:10 GMT; Path=/, expireAt2=1533353406862; Expires=Sat, 04-Aug-2018 05:05:10
-  GMT; Path=/, loginId2=4408862; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, userType2=99;
-  Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, gray2=false; Expires=Sat, 04-Aug-2018
-  05:05:10 GMT; Path=/, session=%7B%22accessToken%22%3A%223af8683a283047b1a888ca2b8379070a%22%2C%22appType%22%3A6%2C%22expireAt%22%3A1533353406862%2C%22loginId%22%3A%224408862%22%2C%22userType%22%3A99%2C%22gray%22%3Afalse%7D;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, accessToken2=3af8683a283047b1a888ca2b8379070a;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, appType2=6;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, expireAt2=1533353406862;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, loginId2=4408862;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, userType2=99;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/, gray2=false;
-  Domain=.lifesense.com; Expires=Sat, 04-Aug-2018 05:05:10 GMT; Path=/
+Cookie: session=%7B%22accessToken%22%3A%22427886502ad24d6ab4bb39a95e8bf91d%22%2C%22appType%22%3A6%2C%22expireAt%22%3A1568790026865%2C%22loginId%22%3A%224408862%22%2C%22userType%22%3A99%2C%22gray%22%3Afalse%7D;
+  Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, accessToken2=427886502ad24d6ab4bb39a95e8bf91d;
+  Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, appType2=6; Expires=Wed, 18-Sep-2019
+  07:06:42 GMT; Path=/, expireAt2=1568790026865; Expires=Wed, 18-Sep-2019 07:06:42
+  GMT; Path=/, loginId2=4408862; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, userType2=99;
+  Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, gray2=false; Expires=Wed, 18-Sep-2019
+  07:06:42 GMT; Path=/, session=%7B%22accessToken%22%3A%22427886502ad24d6ab4bb39a95e8bf91d%22%2C%22appType%22%3A6%2C%22expireAt%22%3A1568790026865%2C%22loginId%22%3A%224408862%22%2C%22userType%22%3A99%2C%22gray%22%3Afalse%7D;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, accessToken2=427886502ad24d6ab4bb39a95e8bf91d;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, appType2=6;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, expireAt2=1568790026865;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, loginId2=4408862;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, userType2=99;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/, gray2=false;
+  Domain=.lifesense.com; Expires=Wed, 18-Sep-2019 07:06:42 GMT; Path=/

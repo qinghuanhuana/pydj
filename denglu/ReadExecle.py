@@ -2,7 +2,7 @@
 import xlrd,requests,json
 
 class openExecle():
-    def __init__(self,datapath,sheet):
+    def __init__(self, datapath, sheet):
         self.excefile = xlrd.open_workbook(datapath)
         self.sheet = self.excefile.sheet_by_name(sheet)
         self.nrows = self.sheet.nrows

@@ -24,7 +24,9 @@ def write_token(session):
         yaml.dump(t, f, Dumper=yaml.RoundTripDumper)
 
 if __name__=="__main__":
-    readdata = openExecle(r'..\Data\testcase.xlsx')
+    readdata = openExecle(r'..\Data\testcase.xlsx', 'test_denglu')
     url = readdata.sheet.row(10)[3].value
     pram = readdata.sheet.row(10)[6].value
-    print(login(url, pram))
+    a, b = login(url, pram)
+    print(a)
+    write_token(a)
