@@ -16,10 +16,14 @@ from denglu.ReadExecle import openExecle
 
 class open(openExecle):
     def oen(self):
-        listname=[]
-        for i in range(0,self.nrows):
+        listname = []
+        listmodel = []
+        for i in range(0, self.nrows):
             listname.append(self.sheet.row(i)[0].value)
-        return listname
-a = open('C:\\Users\\ASUS\\Desktop\\3.7.4遗留问题解答.xlsx','Sheet3')
-b= a.oen()
-print(b)
+            listmodel.append(self.sheet.row(i)[1].value)
+        return listname, listmodel
+
+if __name__ == "__main__":
+    a = open('C:\\Users\\ASUS\\Desktop\\手机借用记录.xls', 'Sheet1')
+    b = a.oen()
+    print(b)
