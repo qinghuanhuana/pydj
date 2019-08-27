@@ -1,1 +1,0 @@
-app/run_all_case.py 2pyXhrapp/run_all_case.py

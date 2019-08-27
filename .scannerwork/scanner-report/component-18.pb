@@ -1,1 +1,0 @@
-app/page/get_yaml.py 2pyX=hrapp/page/get_yaml.py
