@@ -1,7 +1,7 @@
 # coidng=utf-8
 from appium import webdriver
 from appium.webdriver.common.mobileby import By
-import unittest,os,time
+import unittest, os, time
 from selenium.common.exceptions import *
 from app.common.Swipe_swipe import *
 from selenium.webdriver.support.ui import WebDriverWait

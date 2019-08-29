@@ -32,6 +32,5 @@ if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(CountTest("test_add"))
     suite.addTest(CountTest("test_div"))
-    print (suite)
     runner = unittest.TextTestRunner()
     runner.run(suite)

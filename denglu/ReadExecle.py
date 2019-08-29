@@ -56,7 +56,7 @@ class openExecle(object):
 
 if __name__ =="__main__":
     a = openExecle(r'.\Data\testcase.xlsx', "test_denglu")
-    print(a.nrows)
+    print(a.get_pram())
 
 
 

@@ -6,14 +6,14 @@ def get_size(dr):
     return x, y
 
 '''向上滑'''
-def swipe_up(dr,t=500,n=1):
+def swipe_up(dr, t=500, n=1):
     screen = get_size(dr)
     for i in range(n):
         dr.swipe(screen[0]*0.5,screen[1]*0.75,screen[0]*0.5,screen[1]*0.25,t)
     time.sleep(1)
 
 '''向下滑'''
-def swipe_down(dr,t=500,n=1):
+def swipe_down(dr, t=500, n=1):
     screen = get_size(dr)
     for i in range(n):
         dr.swipe(screen[0]*0.5,screen[1]*0.25,screen[0]*0.5,screen[1]*0.75,t)

@@ -2,7 +2,7 @@
 import requests,json,urllib3
 from urllib3.exceptions import InsecureRequestWarning,InsecurePlatformWarning
 class reqs(object):
-    def __init__(self,url,pram,fangshi):
+    def __init__(self,url, pram, fangshi):
         self.url = url
         self.pram = pram
         self.fangshi = fangshi
@@ -14,7 +14,7 @@ class reqs(object):
             r = requests.post(self.url,json=self.pram,verify=False)
             json_response = json.loads(r.text)
             code = json_response["code"]
-            return code,json_response
+            return code, json_response
 
 if __name__=="__main__":
     a=reqs("https://sports-qa.lifesense.com/sms_service/verify/send_code_v3?requestId=1000&sessionId=nosession",'{"code":"0zys","mobile":"13662673020"}','POST')

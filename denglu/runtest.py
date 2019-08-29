@@ -24,17 +24,17 @@ class Testinterface(unittest.TestCase):
         list_pass = 0
         list_fail = 0
         for i in range(len(listurl)):
-            request = reqs(url=listurl[i],pram=listpram[i],fangshi=listmeth[i])
-            code,json= request.testapi()
-            if code ==listcode[i]:
-                list_pass+=1
+            request = reqs(url=listurl[i], pram=listpram[i], fangshi=listmeth[i])
+            code, json= request.testapi()
+            if code == listcode[i]:
+                list_pass += 1
                 listresult.append("pass")
                 listjson.append(json)
             else:
-                list_fail+=1
+                list_fail += 1
                 listresult.append("fail")
                 listjson.append(json)
-        return list_fail,list_pass,listid,listname,listurl,listmeth,listpram,listcode,listmsg,listresult,listjson
+        return list_fail, list_pass, listid, listname, listurl, listmeth, listpram, listcode, listmsg, listresult, listjson
 
 if __name__ == "__main__":
     starttime = datetime.datetime.now()
