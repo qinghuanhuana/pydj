@@ -1,5 +1,6 @@
 # coidng=utf-8
-import unittest, os, time
+import unittest, os, time, sys
+sys.path.append(os.path.dirname(os.getcwd()))
 import HTMLTestRunner
 from app.common.sendMail import sendmail
 case_path = os.path.join(os.getcwd(), 'case')
