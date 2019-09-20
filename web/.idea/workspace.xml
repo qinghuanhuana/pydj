@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73bdd422-4ba5-4bd2-aa2e-768f1808796b" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/run_all_case.py" afterPath="$PROJECT_DIR$/../app/run_all_case.py" />
-    </list>
+    <list default="true" id="73bdd422-4ba5-4bd2-aa2e-768f1808796b" name="默认的" comment="" />
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
