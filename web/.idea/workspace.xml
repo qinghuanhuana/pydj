@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73bdd422-4ba5-4bd2-aa2e-768f1808796b" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="F:/GitHub/pydj/11.py" afterPath="F:/GitHub/pydj/11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,15 +19,15 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/web$driver.coverage" NAME="driver Coverage Results" MODIFIED="1566975163350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model" />
-    <SUITE FILE_PATH="coverage/web$Fzqingqiu.coverage" NAME="Fzqingqiu Coverage Results" MODIFIED="1567057017052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/denglu" />
-    <SUITE FILE_PATH="coverage/web$run_bbs_test.coverage" NAME="run_bbs_test Coverage Results" MODIFIED="1566983900524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/web/mztestpro" />
-    <SUITE FILE_PATH="coverage/web$function.coverage" NAME="function Coverage Results" MODIFIED="1566985304988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model" />
-    <SUITE FILE_PATH="coverage/web$Unittests_in_zhmm.coverage" NAME="Unittests in zhmm Coverage Results" MODIFIED="1567057776962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/denglu" />
-    <SUITE FILE_PATH="coverage/web$ReadExecle.coverage" NAME="ReadExecle Coverage Results" MODIFIED="1567056959715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/denglu" />
-    <SUITE FILE_PATH="coverage/web$login_sta.coverage" NAME="login_sta Coverage Results" MODIFIED="1566982737964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/web/mztestpro/bbs/test_case" />
-    <SUITE FILE_PATH="coverage/web$zhmm.coverage" NAME="zhmm Coverage Results" MODIFIED="1567057930460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/denglu" />
-    <SUITE FILE_PATH="coverage/web$chartest.coverage" NAME="chartest Coverage Results" MODIFIED="1567072688126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/GitHub/pydj/first" />
+    <SUITE FILE_PATH="coverage/web$driver.coverage" NAME="driver Coverage Results" MODIFIED="1566975163350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztestpro/bbs/test_case/model" />
+    <SUITE FILE_PATH="coverage/web$Fzqingqiu.coverage" NAME="Fzqingqiu Coverage Results" MODIFIED="1567057017052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../denglu" />
+    <SUITE FILE_PATH="coverage/web$run_bbs_test.coverage" NAME="run_bbs_test Coverage Results" MODIFIED="1566983900524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztestpro" />
+    <SUITE FILE_PATH="coverage/web$function.coverage" NAME="function Coverage Results" MODIFIED="1566985304988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztestpro/bbs/test_case/model" />
+    <SUITE FILE_PATH="coverage/web$Unittests_in_zhmm.coverage" NAME="Unittests in zhmm Coverage Results" MODIFIED="1567057776962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../denglu" />
+    <SUITE FILE_PATH="coverage/web$ReadExecle.coverage" NAME="ReadExecle Coverage Results" MODIFIED="1567056959715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../denglu" />
+    <SUITE FILE_PATH="coverage/web$login_sta.coverage" NAME="login_sta Coverage Results" MODIFIED="1566982737964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mztestpro/bbs/test_case" />
+    <SUITE FILE_PATH="coverage/web$zhmm.coverage" NAME="zhmm Coverage Results" MODIFIED="1567057930460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../denglu" />
+    <SUITE FILE_PATH="coverage/web$chartest.coverage" NAME="chartest Coverage Results" MODIFIED="1567072688126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../first" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,7 +39,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="chartest.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/GitHub/pydj/first/chartest.py">
+        <entry file="file://$PROJECT_DIR$/../first/chartest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
@@ -51,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/GitHub/pydj/app/run_all_case.py">
+        <entry file="file://$PROJECT_DIR$/../app/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
@@ -61,9 +61,9 @@
         </entry>
       </file>
       <file leaf-file-name="11.py" pinned="false" current-in-tab="true">
-        <entry file="file://F:/GitHub/pydj/11.py">
+        <entry file="file://$PROJECT_DIR$/../11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.130039">
+            <state vertical-scroll-proportion="0.1984127">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
@@ -81,7 +81,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="F:/GitHub/pydj" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -89,21 +89,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model/driver.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model/function.html" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model/myunit.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/page_obj/base.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/page_obj/loginPage.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/login_sta.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/run_bbs_test.py" />
-        <option value="F:/GitHub/pydj/web/mztestpro/bbs/test_case/model/function.py" />
-        <option value="F:/GitHub/pydj/denglu/ReadExecle.py" />
-        <option value="F:/GitHub/pydj/denglu/Fzqingqiu.py" />
-        <option value="F:/GitHub/pydj/denglu/runtest.py" />
-        <option value="F:/GitHub/pydj/denglu/zhmm.py" />
-        <option value="F:/GitHub/pydj/first/chartest.py" />
-        <option value="F:/GitHub/pydj/app/run_all_case.py" />
-        <option value="F:/GitHub/pydj/11.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/model/driver.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/model/function.html" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/model/myunit.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/page_obj/base.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/page_obj/loginPage.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/login_sta.py" />
+        <option value="$PROJECT_DIR$/mztestpro/run_bbs_test.py" />
+        <option value="$PROJECT_DIR$/mztestpro/bbs/test_case/model/function.py" />
+        <option value="$PROJECT_DIR$/../denglu/ReadExecle.py" />
+        <option value="$PROJECT_DIR$/../denglu/Fzqingqiu.py" />
+        <option value="$PROJECT_DIR$/../denglu/runtest.py" />
+        <option value="$PROJECT_DIR$/../denglu/zhmm.py" />
+        <option value="$PROJECT_DIR$/../first/chartest.py" />
+        <option value="$PROJECT_DIR$/../app/run_all_case.py" />
+        <option value="$PROJECT_DIR$/../11.py" />
       </list>
     </option>
   </component>
@@ -113,8 +113,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="45" />
+    <option name="x" value="371" />
+    <option name="y" value="11" />
     <option name="width" value="1729" />
     <option name="height" value="990" />
   </component>
@@ -156,6 +156,12 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pydj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -168,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="F:/GitHub/pydj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -181,13 +187,13 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/GitHub/pydj/denglu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../denglu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/GitHub/pydj/denglu/zhmm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../denglu/zhmm.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -206,13 +212,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/GitHub/pydj/denglu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../denglu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/GitHub/pydj/denglu/ReadExecle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../denglu/ReadExecle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -224,13 +230,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/GitHub/pydj/denglu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../denglu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/GitHub/pydj/denglu/Fzqingqiu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../denglu/Fzqingqiu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -242,13 +248,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/GitHub/pydj/denglu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../denglu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/GitHub/pydj/denglu/zhmm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../denglu/zhmm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -260,13 +266,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/GitHub/pydj/first" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../first" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pydj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/GitHub/pydj/first/chartest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../first/chartest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -498,7 +504,13 @@
       <option name="project" value="LOCAL" />
       <updated>1567070515835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="del">
+      <created>1568973999907</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568973999907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -519,8 +531,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="45" width="1729" height="990" extended-state="0" />
-    <editor active="true" />
+    <frame x="371" y="11" width="1729" height="990" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18505123" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916147" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -529,6 +541,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916147" sideWeight="0.50601506" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916147" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916147" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32415518" sideWeight="0.49398497" order="4" side_tool="false" content_ui="tabs" />
@@ -538,7 +551,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,10 +571,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="F:/GitHub/pydj" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="22" />
-    <option name="LAST_COMMIT_MESSAGE" value="22" />
+    <MESSAGE value="del" />
+    <option name="LAST_COMMIT_MESSAGE" value="del" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,7 +584,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/GitHub/pydj/app/run_all_case.py">
+    <entry file="file://$PROJECT_DIR$/../app/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="55" />
@@ -600,14 +613,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/app/data/email.yaml">
+    <entry file="file://$PROJECT_DIR$/../app/data/email.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14880952">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/app/common/sendMail.py">
+    <entry file="file://$PROJECT_DIR$/../app/common/sendMail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6805556">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
@@ -636,119 +649,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/HTMLTestRunner.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/app/lunachapp.py">
+    <entry file="file://$PROJECT_DIR$/../app/lunachapp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.2677164">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/py_Html.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/py_Html.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.507874">
           <caret line="97" column="14" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/mobile.py">
+    <entry file="file://$PROJECT_DIR$/../first/mobile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.72244096">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/ceshi.py">
+    <entry file="file://$PROJECT_DIR$/../first/ceshi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/yzmtest.py">
+    <entry file="file://$PROJECT_DIR$/../first/yzmtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/threads.py">
+    <entry file="file://$PROJECT_DIR$/../first/threads.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.37795275">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/ReadExecle.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/ReadExecle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1811024">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/req.py">
+    <entry file="file://$PROJECT_DIR$/../first/req.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/soap_client.py">
+    <entry file="file://$PROJECT_DIR$/../first/soap_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39370078">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/gue/manage.py">
+    <entry file="file://$PROJECT_DIR$/../gue/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/gue/test.py">
+    <entry file="file://$PROJECT_DIR$/../gue/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.44291338">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/pyrequest/run_tests.py">
+    <entry file="file://$PROJECT_DIR$/../pyrequest/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/report/2019-08-29 13_50_37result.html">
+    <entry file="file://$PROJECT_DIR$/../denglu/report/2019-08-29 13_50_37result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/report/2018-07-05 18_38_13result.html">
+    <entry file="file://$PROJECT_DIR$/../denglu/report/2018-07-05 18_38_13result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21097046">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/report/2019-08-29 13_52_10result.html">
+    <entry file="file://$PROJECT_DIR$/../denglu/report/2019-08-29 13_52_10result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10548523">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/runtest.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
@@ -762,28 +775,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/Fzqingqiu.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/Fzqingqiu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3472222">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/Data/token.yaml">
+    <entry file="file://$PROJECT_DIR$/../denglu/Data/token.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5456349">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/denglu/zhmm.py">
+    <entry file="file://$PROJECT_DIR$/../denglu/zhmm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5297619">
           <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/first/chartest.py">
+    <entry file="file://$PROJECT_DIR$/../first/chartest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
@@ -793,7 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/app/run_all_case.py">
+    <entry file="file://$PROJECT_DIR$/../app/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
@@ -801,9 +814,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/GitHub/pydj/11.py">
+    <entry file="file://$PROJECT_DIR$/../11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.130039">
+        <state vertical-scroll-proportion="0.1984127">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
