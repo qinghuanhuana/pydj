@@ -4,7 +4,7 @@ from requests.auth import HTTPBasicAuth
 from denglu.ReadExecle import openExecle
 from urllib3.exceptions import InsecureRequestWarning, InsecurePlatformWarning
 import HTMLTestRunner
-
+from denglu.common.sendMail import sendmail
 
 class LoginRegister(unittest.TestCase):
     def setUp(self):
@@ -123,9 +123,9 @@ class LoginRegister(unittest.TestCase):
 
 if __name__ == "__main__":
     suit = unittest.TestSuite()
-    suit.addTest(LoginRegister('test_registerBy_phone'))
-    suit.addTest(LoginRegister('test_yzmtrue_phone'))
-    suit.addTest(LoginRegister('test_yzmerr_phone'))
+    # suit.addTest(LoginRegister('test_registerBy_phone'))
+    # suit.addTest(LoginRegister('test_yzmtrue_phone'))
+    # suit.addTest(LoginRegister('test_yzmerr_phone'))
     report_time=time.strftime("%Y-%m-%d %H_%M_%S")
     report_path = os.path.dirname(__file__)+'/report/'+report_time+'result.html'
     with open(report_path,"wb") as fp:

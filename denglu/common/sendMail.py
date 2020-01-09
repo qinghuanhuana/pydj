@@ -5,10 +5,9 @@ from email.mime.multipart import MIMEMultipart
 
 def email_setting():
     import yaml
-    with open(r"F:\pydj\denglu\Data\email.yaml","r") as fp:
+    with open(r".\Data\email.yaml", "r") as fp:
         data = yaml.load(fp)
-    # print (data)
-    return (data["foremail"], data["password"], data["toeamil"], data["toemail"], data["port"])
+    return data["foremail"], data["password"], data["toeamil"], data["toemail"], data["port"]
 
 def sendmail(file_path, neirong=''):
     from_addr, password, mail_to, smtpserver, smtpport=email_setting()

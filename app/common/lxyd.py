@@ -2,7 +2,7 @@
 from app.page import get_yaml
 from app.common.Swipe_swipe import *
 from app.common.fengzhuang import Fengzhuang
-import yaml,os
+import yaml, os
 
 page_loc = get_yaml.LonginPage()
 min_loc = get_yaml.MinePage()
@@ -50,13 +50,14 @@ class Lxyd(Fengzhuang):
             pass
         self.click(self.login_loc)
         if mobile != '':
+            self.clear_key(self.userphone_loc)
             self.send_keys(self.userphone_loc, mobile)
             self.send_keys(self.password_loc, password)
             self.click(self.userlogin_loc)
             self.always_allow()
             self.tan_chuan()
         else:
-            self.clear_key(self.userphone_loc)
+            self.send_keys(self.userphone_loc, mobile)
             self.send_keys(self.password_loc, password)
             self.click(self.userlogin_loc)
             self.always_allow()

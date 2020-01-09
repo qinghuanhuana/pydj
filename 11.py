@@ -1,5 +1,10 @@
-a = [1,2,3,4,5,6,7,8,9]
-
-for i in range(len(a)):
-    for j in range(len(a)):
-            print(i, j)
+import os
+dirpath = os.path.dirname(os.path.abspath('__file__'))
+print(dirpath)
+a = 0
+for root, dirs, names in os.walk(dirpath):
+    print(root,dirs,names)
+    for name in names:
+        if os.path.splitext(name)[1] == '.py':
+            a +=1
+# print(a)

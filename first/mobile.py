@@ -1,10 +1,5 @@
 #coding = utf-8
-# a = 13666666666
-#
-# with open("mobile.txt","w") as fp:
-#     for i in range(1,10001):
-#         a+=1
-#         fp.write(str(a)+"\n")
+
 #
 # import os
 # a = os.getcwd()
@@ -23,7 +18,9 @@ class open(openExecle):
             listmodel.append(self.sheet.row(i)[1].value)
         return listname, listmodel
 
+
+
 if __name__ == "__main__":
     a = open('C:\\Users\\ASUS\\Desktop\\手机借用记录.xls', 'Sheet1')
-    b = a.oen()
+    b = a.add_num(441100)
     print(b)

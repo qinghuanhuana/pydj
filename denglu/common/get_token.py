@@ -27,6 +27,6 @@ if __name__=="__main__":
     readdata = openExecle(r'..\Data\testcase.xlsx', 'test_denglu')
     url = readdata.sheet.row(10)[3].value
     pram = readdata.sheet.row(10)[6].value
-    a, b = login(url, pram)
-    print(a)
-    write_token(a)
+    session, userid = login(url, pram)
+    print(session)
+    write_token(session)

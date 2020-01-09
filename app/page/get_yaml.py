@@ -52,9 +52,6 @@ def ShouyePage():
 
 
 if __name__ == "__main__":
-    a = parseyaml()
-    print (a)
     b = MinePage()
-    print(b)
-    login_loc = (b[0]['type'], b[0]['value'])
+    login_loc = (b[8]['type'], b[8]['value'])
     print (login_loc)

@@ -26,7 +26,7 @@ ShouyePage:
      type: id
      value: gz.lifesense.weidong.qa:id/ivHomeShare
     -
-     name: 首页'+'号6
+     name: 首页加号6
      type: id
      value: gz.lifesense.weidong.qa:id/iv_home_add
     -

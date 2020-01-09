@@ -1,11 +1,5 @@
 # coidng=utf-8
-from appium import webdriver
-from appium.webdriver.common.mobileby import By
 import unittest, os, time
-from selenium.common.exceptions import *
-from app.common.Swipe_swipe import *
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from app.common.lxyd import Lxyd
 from app.page import get_yaml
 page_loc = get_yaml.LonginPage()
@@ -20,7 +14,6 @@ class Lexin(unittest.TestCase):
             self.fz.out_login()
         except:
             pass
-
         self.mine_loc = (min_loc[3]['type'],min_loc[3]['value'])
         self.user_id_loc = (min_loc[8]['type'], min_loc[8]['value'])
 
@@ -32,9 +25,8 @@ class Lexin(unittest.TestCase):
         """正常手机号密码登陆成功"""
         try:
             self.fz.login(19000000001, 123456)
-            user_id_loc = ('id', 'fm_id_tv')
             self.fz.click(self.mine_loc)
-            user_id = self.fz.get_text(user_id_loc)
+            user_id = self.fz.get_text(self.user_id_loc)
             self.assertEqual(user_id, 'ID:5518805')
             print('登陆成功')
         except:
